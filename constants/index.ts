@@ -255,6 +255,12 @@ export const Backend_skill = [
 
 export const Other_skill = [
   {
+    skill_name: "Handlebars",
+    Image: "/assets/handlebars.png",
+    width: 70,
+    height: 70,
+  },
+  {
     skill_name: "Docker",
     Image: "/assets/docker.webp",
     width: 70,
@@ -266,31 +272,73 @@ export const My_Projects = [
   {
     source: "/assets/food-delivery.png",
     title: "Food-Delivery App",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew",
+    technologies: "typescript nestjs tailwind mongodb prisma next api chartjs"
   },
   {
     source: "/assets/tcc.png",
     title: "Women Jobs Website",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe",
+    technologies: "javascript css mongodb chartjs prisma next chartjs motion api"
   },
   {
     source: "/assets/ecommerce.png",
     title: "E-commerce Platform",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "typescript tailwind clerk mongodb prisma next prisma"
+  },
+  {
+    source: "/assets/bg.avif",
+    title: "GO Web Scraper",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "golang api"
   },
   {
     source: "/assets/cloudify.png",
     title: "Cloudify Drive",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew",
+    technologies: "typescript next tailwind firebase"
   },
   {
     source: "/assets/mental-health.png",
     title: "Mental Health Site",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe",
+    technologies: "nextjs javascript css mongodb"
   },
   {
     source: "/assets/carhub.png",
     title: "Carhub Website",
-    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo"
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "typescript tailwind react api"
+  },
+  {
+    source: "/assets/magictoys.png",
+    title: "Magic Toys Website",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "html css javascript"
+  },
+  {
+    source: "/assets/ydownload.png",
+    title: "Youtube Video Downloader",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "html css javascript api nodejs"
+  },
+  {
+    source: "/assets/costs.png",
+    title: "Costs",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "javascript css html react api"
+  },
+  {
+    source: "/assets/pokepedia.png",
+    title: "Pokepedia",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "html css javascript api"
+  },
+  {
+    source: "/assets/etecjd.png",
+    title: "ETEC School Website",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
+    technologies: "html css javascript motion"
   },
 ];

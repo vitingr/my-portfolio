@@ -9,4 +9,7 @@ export interface ProjectProps {
   source: string;
   title: string;
   description: string;
+  technologies: any;
+  index: number;
 }
+
