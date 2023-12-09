@@ -140,14 +140,74 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Framer Motion",
+    Image: "/assets/framer.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Stripe Payment",
+    Image: "/assets/stripe.webp",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Sass",
+    Image: "/assets/sass.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "ChartJS",
+    Image: "/assets/chartjs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Swiper",
+    Image: "/assets/swiper.png",
+    width: 80,
+    height: 80,
+  },
 ];
 
 export const Backend_skill = [
+  {
+    skill_name: "Go",
+    Image: "/assets/go.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "C++",
+    Image: "/assets/cplusplus.svg",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "C#",
+    Image: "/assets/csharp.png",
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Python",
+    Image: "/assets/python.png",
+    width: 60,
+    height: 60,
+  },
   {
     skill_name: "NodeJs",
     Image: "/assets/node-js.png",
     width: 80,
     height: 80,
+  },
+  {
+    skill_name: "NestJS",
+    Image: "/assets/nestjs.svg",
+    width: 60,
+    height: 60,
   },
   {
     skill_name: "Express",
@@ -174,6 +234,12 @@ export const Backend_skill = [
     height: 70,
   },
   {
+    skill_name: "SQL Server",
+    Image: "/assets/sqlserver.svg",
+    width: 55,
+    height: 55,
+  },
+  {
     skill_name: "Prisma",
     Image: "/assets/prisma.webp",
     width: 70,
@@ -184,12 +250,6 @@ export const Backend_skill = [
     Image: "/assets/graphql.png",
     width: 80,
     height: 80,
-  },
-  {
-    skill_name: "Go",
-    Image: "/assets/go.png",
-    width: 60,
-    height: 60,
   },
 ];
 
@@ -204,18 +264,33 @@ export const Other_skill = [
 
 export const My_Projects = [
   {
-    source: "/assets/bg.avif",
-    title: "teste 1",
+    source: "/assets/food-delivery.png",
+    title: "Food-Delivery App",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew"
   },
   {
-    source: "/assets/bg.avif",
-    title: "teste 2",
+    source: "/assets/tcc.png",
+    title: "Women Jobs Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe"
   },
   {
-    source: "/assets/bg.avif",
-    title: "teste 3",
+    source: "/assets/ecommerce.png",
+    title: "E-commerce Platform",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo"
+  },
+  {
+    source: "/assets/cloudify.png",
+    title: "Cloudify Drive",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew"
+  },
+  {
+    source: "/assets/mental-health.png",
+    title: "Mental Health Site",
+    description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe"
+  },
+  {
+    source: "/assets/carhub.png",
+    title: "Carhub Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo"
   },
 ];
