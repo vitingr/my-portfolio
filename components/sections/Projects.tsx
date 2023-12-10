@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
       <div className='h-full w-full flex flex-col md:flex-row md:flex-wrap gap-12 px-4 sm:px-10 justify-center z-30'>
         {My_Projects.map((project: ProjectProps | any, index) => (
-          <ProjectCard source={project.source} title={project.title} description={project.description} technologies={project.technologies} key={project.title} index={index} />
+          <ProjectCard source={project.source} title={project.title} description={project.description} technologies={project.technologies} key={project.title} projectLink={project.link} index={index} />
         ))}
       </div>
     </div>

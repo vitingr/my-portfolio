@@ -11,5 +11,6 @@ export interface ProjectProps {
   description: string;
   technologies: any;
   index: number;
+  projectLink: string;
 }
 

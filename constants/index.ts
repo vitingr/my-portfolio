@@ -159,12 +159,6 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "ChartJS",
-    Image: "/assets/chartjs.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Swiper",
     Image: "/assets/swiper.png",
     width: 80,
@@ -266,6 +260,24 @@ export const Other_skill = [
     width: 70,
     height: 70,
   },
+  {
+    skill_name: "ChartJS",
+    Image: "/assets/chartjs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Google Cloud",
+    Image: "/assets/cloud.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Amazon Web Services",
+    Image: "/assets/aws.png",
+    width: 80,
+    height: 80,
+  },
 ];
 
 export const My_Projects = [
@@ -273,72 +285,84 @@ export const My_Projects = [
     source: "/assets/food-delivery.png",
     title: "Food-Delivery App",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew",
-    technologies: "typescript nestjs tailwind mongodb prisma next api chartjs"
+    technologies: "typescript nestjs tailwind mongodb prisma next api chartjs",
+    link: "https://food-delivery-rho-five.vercel.app/"
   },
   {
     source: "/assets/tcc.png",
     title: "Women Jobs Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe",
-    technologies: "javascript css mongodb chartjs prisma next chartjs motion api"
+    technologies: "javascript css mongodb chartjs prisma next chartjs motion api",
+    link: "https://tcc-rh.vercel.app/"
   },
   {
     source: "/assets/ecommerce.png",
     title: "E-commerce Platform",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "typescript tailwind clerk mongodb prisma next prisma"
+    technologies: "typescript tailwind clerk mongodb prisma next prisma",
+    link: "https://ecommerce-vitor.vercel.app/"
   },
   {
     source: "/assets/bg.avif",
     title: "GO Web Scraper",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "golang api"
+    technologies: "golang api",
+    link: "https://github.com/vitingr/go-web-scraper"
   },
   {
     source: "/assets/cloudify.png",
     title: "Cloudify Drive",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoejwoejwoewjoewjoewjoewjoewjoew",
-    technologies: "typescript next tailwind firebase"
+    technologies: "typescript next tailwind firebase",
+    link: "https://cloudify-platform.vercel.app/"
   },
   {
     source: "/assets/mental-health.png",
     title: "Mental Health Site",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoe",
-    technologies: "nextjs javascript css mongodb"
+    technologies: "nextjs javascript css mongodb",
+    link: "https://mental-health-pwi.vercel.app/"
   },
   {
     source: "/assets/carhub.png",
     title: "Carhub Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "typescript tailwind react api"
+    technologies: "typescript tailwind react api",
+    link: "https://projeto-venda-carros.vercel.app/"
   },
   {
     source: "/assets/magictoys.png",
     title: "Magic Toys Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "html css javascript"
+    technologies: "html css javascript",
+    link: "https://sitemagictoys.github.io/MagicToys/inicio.html"
   },
   {
     source: "/assets/ydownload.png",
     title: "Youtube Video Downloader",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "html css javascript api nodejs"
+    technologies: "html css javascript api nodejs",
+    link: "https://ytdownloader-pearl.vercel.app/"
   },
   {
     source: "/assets/costs.png",
     title: "Costs",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "javascript css html react api"
+    technologies: "javascript css html react api",
+    link: "https://costs-jade.vercel.app/"
   },
   {
     source: "/assets/pokepedia.png",
     title: "Pokepedia",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "html css javascript api"
+    technologies: "html css javascript api",
+    link: "https://vitingr.github.io/Pokepedia/index.html"
   },
   {
     source: "/assets/etecjd.png",
     title: "ETEC School Website",
     description: "wodwjodwjodwopdwjopdwjpodjapowjpodwjpdajwpodjawpdpowajdpowajdpowajdpowjdpwjpdwjdpwjdopwjdpwjdpowdjpowpdcejdwjpdwjpdjwpdjwopdjwpdjwpdjwpdjwpdowjdpowdjpwdjwpdjwp jpdwlo loremewopejkwoejwoejwoejwoejwejwejwoejwoejwoejwoejwoejwoejwoeo",
-    technologies: "html css javascript motion"
+    technologies: "html css javascript motion",
+    link: "https://vitingr.github.io/site-etec-jd/inicio.html"
   },
 ];
