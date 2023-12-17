@@ -25,25 +25,25 @@ const ProjectCard = ({ source, title, description, technologies, index, projectL
       <Link href={projectLink} target='__blank'>
         <Image src={source} alt={title} width={1000} height={1000} className='h-[300px] w-full object-cover' />
         <div className='p-4 flex flex-wrap gap-4 items-center cursor-default break-all h-[80px] overflow-y-hidden'>
-          {technologies.includes("html") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>css</p> : <></>}
-          {technologies.includes("css") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>html</p> : <></>}
-          {technologies.includes("javascript") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>javascript</p> : <></>}
-          {technologies.includes("typescript") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>typescript</p> : <></>}
-          {technologies.includes("golang") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>go</p> : <></>}
-          {technologies.includes("python") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>python</p> : <></>}
-          {technologies.includes("nodejs") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>nodejs</p> : <></>}
-          {technologies.includes("nestjs") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>nestjs</p> : <></>}
-          {technologies.includes("tailwind") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>tailwindcss</p> : <></>}
-          {technologies.includes("mongodb") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>mongodb</p> : <></>}
-          {technologies.includes("firebase") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>firebase</p> : <></>}
-          {technologies.includes("react") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>react</p> : <></>}
-          {technologies.includes("next") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>nextjs</p> : <></>}
-          {technologies.includes("prisma") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>prisma</p> : <></>}
-          {technologies.includes("chartjs") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>chartjs</p> : <></>}
-          {technologies.includes("motion") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>motion</p> : <></>}     {technologies.includes("api") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>api</p> : <></>}
-          {technologies.includes("clerk") ? <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500 tracking-widest text-xs uppercase'>clerk</p> : <></>}
+          {technologies.includes("html") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>css</p> : <></>}
+          {technologies.includes("css") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>html</p> : <></>}
+          {technologies.includes("javascript") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>javascript</p> : <></>}
+          {technologies.includes("typescript") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>typescript</p> : <></>}
+          {technologies.includes("golang") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>go</p> : <></>}
+          {technologies.includes("python") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>python</p> : <></>}
+          {technologies.includes("nodejs") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>nodejs</p> : <></>}
+          {technologies.includes("nestjs") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>nestjs</p> : <></>}
+          {technologies.includes("tailwind") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>tailwindcss</p> : <></>}
+          {technologies.includes("mongodb") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>mongodb</p> : <></>}
+          {technologies.includes("firebase") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>firebase</p> : <></>}
+          {technologies.includes("react") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>react</p> : <></>}
+          {technologies.includes("next") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>nextjs</p> : <></>}
+          {technologies.includes("prisma") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>prisma</p> : <></>}
+          {technologies.includes("chartjs") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>chartjs</p> : <></>}
+          {technologies.includes("motion") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>motion</p> : <></>}     {technologies.includes("api") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>api</p> : <></>}
+          {technologies.includes("clerk") ? <p className='text-xs tracking-widest bg-[#333] text-white px-3 py-1 rounded-xl min-w-[50px] text-center uppercase'>clerk</p> : <></>}
         </div>
-        <div className='relative px-4 h-[225px] max-w-[500px] break-normal cursor-default'>
+        <div className='relative px-4 h-[225px] max-w-[500px] break-normal cursor-default mt-6'>
           <h1 className='text-2xl font-semibold text-white'>{title}</h1>
           <p className='mt-2 text-gray-300 break-all w-full text-justify'>{description}</p>
         </div>

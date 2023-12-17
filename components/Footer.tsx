@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='w-full h-full bg-transparent text-white shadow-lg p-[15px] mt-[150px]'>
+    <footer className='w-full sm:max-w-full max-w-[360px] h-full bg-transparent text-white shadow-lg p-[15px] mt-[150px]'>
       <div className='border-[#ffffff77] border-t-2 min-h-[400px] flex w-full p-16 flex-col sm:flex-row'>
         <div className='w-full xs:mb-12 flex flex-col items-center xs:justify-center'>
           <img src="/assets/logo.png" className='max-w-[125px]' alt="Logo" />

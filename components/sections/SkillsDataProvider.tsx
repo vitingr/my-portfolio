@@ -21,7 +21,7 @@ const SkillsDataProvider = ({ source, width, height, index }: SkillsDataProvider
 
   return (
     <motion.div ref={ref} initial="hidden" variants={imageVariants} animate={inView ? "visible" : "hidden"} custom={index} transition={{ delay: index * animationDelay }} className='w-[100px] h-[100px] glassmorphism flex items-center justify-center rounded-lg'>
-      <Image src={source} width={width} height={height} alt='Skill Image' />
+      <Image src={source} width={60} height={60} alt='Skill Image' />
     </motion.div>
   )
 }
