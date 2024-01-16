@@ -48,7 +48,7 @@ const ProjectCard = ({ source, title, description, technologies, index, projectL
           <p className='mt-2 text-gray-300 break-all w-full text-justify'>{description}</p>
         </div>
         <div className='p-4 w-full mb-3 cursor-default'>
-          <button className='w-full bg-gradient-to-r from-purple-500 to-indigo-600 py-2 px-4 rounded-full text-white cursor-pointer'>
+          <button type='button' className='w-full bg-gradient-to-r from-purple-500 to-indigo-600 py-2 px-4 rounded-full text-white cursor-pointer'>
             See Project
           </button>
         </div>

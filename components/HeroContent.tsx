@@ -26,7 +26,7 @@ const HeroContent = () => {
         <motion.p variants={slideInFromLeft(0.8)} className='text-lg text-gray-400 my-5 max-w-[600px]'>
           I'm a Full Stack Developer that loves the Web Development. Check out my projects and skills
         </motion.p>
-        <motion.a variants={slideInFromLeft(1)} className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] transition-all duration-300'>
+        <motion.a href="/" variants={slideInFromLeft(1)} className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] transition-all duration-300'>
           Learn More.
         </motion.a>
       </div>
