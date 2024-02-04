@@ -14,3 +14,9 @@ export interface ProjectProps {
   projectLink: string;
 }
 
+export interface ContactProps {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}

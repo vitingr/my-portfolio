@@ -275,12 +275,12 @@ export const Other_skill = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Amazon Web Services",
-    Image: "/assets/aws.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Amazon Web Services",
+  //   Image: "/assets/aws.png",
+  //   width: 80,
+  //   height: 80,
+  // },
 ];
 
 export const My_Projects = [
