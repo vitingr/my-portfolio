@@ -47,7 +47,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-20 w-full sm:max-w-none max-w-[350px]">
+    <div className="mx-auto flex flex-col items-center py-4 lg:py-12 w-full sm:max-w-none max-w-[500px] lg:max-w-[1024px] 2xl:max-w-[1600px]">
       <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
         Contact me
       </h1>
@@ -56,7 +56,7 @@ const Contact = () => {
       </h3>
 
       <form
-        className="w-full max-w-[350px] z-30 mt-16"
+        className="w-full max-w-[500px] lg:max-w-[1024px] 2xl:max-w-[1600px] z-30 mt-16"
         onSubmit={async (e: React.SyntheticEvent) => {
           e.preventDefault();
           await handleSendMail();
